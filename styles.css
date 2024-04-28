@@ -1,0 +1,95 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.head {
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    margin: 0px;
+
+}
+li.nav {
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+}
+
+a:hover{
+    color: red;
+}
+
+
+a:after {
+    color: blueviolet;
+}
+
+.name {
+    float: right;
+    font-size: larger;
+    color: white;
+    margin-right: 80%;
+}
+
+a {
+    color: aquamarine;
+}
+
+img.picIntro {
+  float: right;
+}
+
+.lazyloaded{
+        float: left;
+        vertical-align: middle;
+        display: inline-block;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+   .heading {
+        color: rgba(255, 255, 255, 0);
+        font-family: "Poppins", Sans-serif;
+        font-size: 200px;
+        font-weight: bold;
+        text-transform: capitalize;
+        -webkit-text-stroke-width: 1px;
+        stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(203, 203, 203, .48);
+        stroke: rgba(203, 203, 203, .48);
+    }
+
+    .bestShop {
+        color: #00bf63;
+    font-family: "Poppins", Sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -1.5px;
+        padding: 0;
+         margin-right:0px ;
+        line-height: 1;
+    }
+    
+ 
+
+
+/* `xs` returns only a ruleset and no media query
+// ... { ... } */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }
